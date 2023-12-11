@@ -1,0 +1,125 @@
+.live_butt{
+    border-radius: 10px;
+}
+.row {
+    --bs-gutter-x: 0;
+    margin-right: calc(var(--bs-gutter-x) * -1);
+    margin-left: calc(var(--bs-gutter-x) * -1);
+    
+}
+.outer_categ{
+    width: 90%;
+}
+.main_card{
+    border-radius: 10px;
+    border: solid;
+    margin: 0.2rem;
+    display: inline-block;
+}
+.card-header:first-child{
+    border: solid;
+    border-radius: 10px;
+    border-color: #ffca2c;
+    background-color:#ffce3d;
+}
+.student_text{
+    color: rgb(7, 237, 7);
+}
+.circle {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner_circle{
+    width: 75px;
+    height: 75px;
+    background-color: #ffffff; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff; /* Set text color */
+}
+@media (max-width: 1410px) {
+    .circle {
+        width: 75px;
+        height: 75px;
+    }
+    .inner_circle{
+        width: 56px;
+        height: 56px;
+    }
+}
+
+.small{
+    font-size: 10px;
+}
+
+/* we start here give design to sidebar*/
+.sidebar {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    color: rgb(0, 0, 0);
+    border-left: solid;
+    border-width: 5px;
+    background-color: #dadada;
+}
+.sidebar .card-header{
+    border-radius: 0;
+}
+
+.insideCard{
+    border: none;
+    border-radius: 0%;
+}
+.insideBody{
+    background-color: #dadada;
+    padding: 0;
+    border-bottom: solid;
+    border-width: 0.5px;
+}
+.insideBody .inner_circle{
+    background-color: #dadada;
+}
+.btn-order{
+    border: solid;
+    border-color: black;
+    border-radius: 0.5rem;
+    border-width: 0.5px;
+    
+}
+.text1{
+    color: rgb(5, 233, 28);
+    font-weight: bold;
+}
+.text2{
+    color: rgb(233, 5, 5);
+    font-weight: bold;
+}
+.text3{
+    color: rgb(235, 105, 29);
+    font-weight: bold;
+}
+.text_tabel{
+    color: rgb(5, 233, 28);
+    font-weight: bold;
+}
+.tr_tabel{
+    border-bottom: solid;
+    border-width: 0.5px;
+    border-color: black;
+}
+@media (max-width: 577px) {
+    .sidebar {
+      width: 100%; /* Make the sidebar full-width on small screens */
+      position: relative;
+    }
+  }

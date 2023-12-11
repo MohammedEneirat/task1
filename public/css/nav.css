@@ -1,0 +1,24 @@
+.theNav{
+    border-bottom: solid;
+}
+.thesearch{
+    border: solid;
+    border-right: none;
+    border-width: 0.5px;
+    border-radius: 5%;
+}
+.search-ic{
+    border: solid;
+    border-left: none;
+    border-width: 0.5px;
+    margin-left: auto;
+}
+.button1{
+    background-color: rgb(218, 246, 133);
+    border: 5cm;
+    margin: 0px 10px;
+}
+.button2{
+    background-color: aqua;
+    margin:0px 10px;
+}
